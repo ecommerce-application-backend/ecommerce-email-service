@@ -6,8 +6,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class SendEmailDto {
-    private String to;
-    private String from;
+    private String toEmail;
+    private String fromEmail;
     private String subject;
     private String body;
 }
